@@ -1,0 +1,29 @@
+body {
+    font-family: 'calibri', sans-serif;
+    background-color: #c0e4eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 ;
+    color: #333;
+}
+#btnPersonaje {
+    background-color: #11c882; /* Color turquesa estilo Rick y Morty */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;    
+}
+#btnPersonaje:hover {
+    background-color: #0f93a6;
+    transform: translateY(-2px); /* Efecto de flotar al pasar el mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
